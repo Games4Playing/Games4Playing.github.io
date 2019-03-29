@@ -1,3 +1,3 @@
 # Games4Playing.github.io
-My Testground
-This is my Testground for an A-Frame Application
+This is my Testground for an A-Frame Application.
+Whoever may be Interested in what Exactly i'm trying to do contact me at gameszock@yahoo.de
