@@ -7,7 +7,7 @@
 </head>
 
 <body>
-  <a-scene>
+  <a-scene background="ddddd">
     <a-assets>
     <a-asset-item id="world-geojson" src="/assets/FullGlobeMID.json" />
     <img id="sky" src="https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2009/2-astronomersu.jpg">
@@ -19,7 +19,6 @@
    <a-sphere position="0 1.5 -2" radius="1.25" color="#ff4300" shadow="" material="opacity:0.75;emissive:#ffff80;emissiveIntensity:0.83" geometry="radius:0.49"></a-sphere>
    <a-sphere position="0 1.5 -2" radius="1.25" color="#ff4300" shadow="" material="opacity:0.75;emissive:#ffff80;emissiveIntensity:0.83" geometry="radius:0"></a-sphere>
    <a-sphere position="0 1.5 -2" radius="1.25" color="#ff4300" shadow="" material="opacity:0.75;emissive:#000000;wireframeLinewidth:18.81;depthWrite:false" geometry="radius:1.36"></a-sphere>
-     <a-sky src="#sky"></a-sky>
     <a-entity
       position="0 1.5 -2"
       geometry="primitive: sphere; radius: 1.5;"
